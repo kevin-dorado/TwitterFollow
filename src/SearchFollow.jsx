@@ -1,12 +1,22 @@
 
 import { Search } from 'lucide-react';
+import { TwitterFolowCard } from './TwitterFollowcard';
 
 
+let arrayUser=[]
 
 const searchUser = ()=>{
-const  search =  document.getElementById("search").value      
-    console.log(search); 
-    localStorage.setItem(search,"user")
+
+const  user =  document.getElementById("search").value  
+
+if(user!="") {
+
+    arrayUser.push(user)
+    localStorage.setItem("user",JSON.stringify(arrayUser))
+
+
+}
+
 }
 
 export function SearchFollow(){

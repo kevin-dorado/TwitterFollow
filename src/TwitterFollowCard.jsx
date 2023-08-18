@@ -1,5 +1,5 @@
 import { useState } from "react"
-export function TwitterFolowCard({userName,name,}){
+export function TwitterFolowCard({userName,}){
     const [isFollowing, setIsFollowing]= useState(false)
     const imgAvatar = `https://unavatar.io/${userName}`
 
@@ -15,7 +15,7 @@ export function TwitterFolowCard({userName,name,}){
     return(
     
     <article >         
-        <div class="flex p-1 w-full flex-1 justify-between">
+        <div className="flex p-1 w-full flex-1 justify-between">
             <div className="flex">
                 <img className="rounded-full w-10 h-10 mt-1 ml-1" 
                     src={imgAvatar} 

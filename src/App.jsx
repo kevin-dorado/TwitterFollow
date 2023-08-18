@@ -4,7 +4,24 @@ import React from "react"
 import { TwitterFolowCard } from "./TwitterFollowcard"
 import { SearchFollow } from "./SearchFollow"
 
+const Showuser=({users})=>{
+
+ return(
+
+  users.map((user)=> (
+    <TwitterFolowCard userName={`${user}`}name={`@${user}`}/> ))
+
+ )
+
+ 
+
+}
+
+
 export const App = () => {
+
+  const users = localStorage.getItem("user")
+
 
 return (
 
@@ -15,12 +32,10 @@ return (
     <h2 className="text-gray-50  m-2 font-medium" > A quien seguir</h2>
     <SearchFollow />
   </div>
-  <TwitterFolowCard userName="elonmusk" name="@elnaves" isFollowing={true}/> 
-  <TwitterFolowCard userName="kikobeats" name="@elcubo"isFollowing={false}/> 
-  <TwitterFolowCard userName="x" name="@x"isFollowing={false}/> 
-  <TwitterFolowCard userName="valordolarblue" name="@ValorDolarBlue"isFollowing={false}/> 
-  <TwitterFolowCard userName="nicolasamoroso" name="@niconiconii"isFollowing={false}/> 
   
+
+  <TwitterFolowCard userName="elonmusk" name="@elnaves" isFollowing={true}/> 
+  <TwitterFolowCard userName="valordolarblue" name="@ValorDolarBlue"isFollowing={false}/> 
   </article>
 </div>
 
