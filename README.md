@@ -16,8 +16,11 @@ Puedes ver una demostración del proyecto en este enlace: (aquí pondrías el en
 Para instalar el proyecto, sigue estos pasos:
 
 -Clona el repositorio con el comando git clone https://github.com/kevin-dorado/TwitterFollow.git
+
 -Instala las dependencias con el comando npm install
+
 -Inicia el servidor de desarrollo con el comando npm start
+
 -Abre el navegador y accede a la dirección http://localhost:3000
 
 # Licencia
