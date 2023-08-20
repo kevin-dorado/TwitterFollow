@@ -19,9 +19,9 @@ Para instalar el proyecto, sigue estos pasos:
 
 -Instala las dependencias con el comando npm install
 
--Inicia el servidor de desarrollo con el comando npm start
+-Inicia el servidor de desarrollo con el comando npm run dev
 
--Abre el navegador y accede a la dirección http://localhost:3000
+-Abre el enlace proporcionado por el terminal
 
 # Licencia
 Este proyecto está bajo la licencia MIT. Puedes ver el archivo LICENSE para más detalles.
