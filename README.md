@@ -12,7 +12,7 @@ This project is an imitation of the who to follow template from Twitter, made wi
 # Demo
 Puedes ver una demostración del proyecto en este enlace: (https://twitter-follow.vercel.app/)
 
-https://raw.githubusercontent.com/kevin-dorado/TwitterFollow/main/TwitterFollowPhoto.png
+![CalPhoto](https://raw.githubusercontent.com/kevin-dorado/TwitterFollow/main/TwitterFollowPhoto.png)
 
  # Instalación
 Para instalar el proyecto, sigue estos pasos:
