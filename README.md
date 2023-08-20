@@ -10,7 +10,7 @@ English:
 This project is an imitation of the who to follow template from Twitter, made with React and Tailwind. It uses the avatar.io API to generate images of the suggested users. The goal is to practice the use of functional components, hooks and styles with Tailwind.
 
 # Demo
-Puedes ver una demostración del proyecto en este enlace: (aquí pondrías el enlace a tu página web o a un video que muestre el funcionamiento del proyecto)
+Puedes ver una demostración del proyecto en este enlace: (https://twitter-follow.vercel.app/)
 
  # Instalación
 Para instalar el proyecto, sigue estos pasos:
