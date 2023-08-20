@@ -2,7 +2,8 @@
 
 import React from "react"
 import { TwitterFolowCard } from "./TwitterFollowcard"
-import { SearchFollow } from "./SearchFollow"
+import { SearchFollow } from "./searchFollow"
+
 
 const Showuser=()=>{
   const users = JSON.parse(localStorage.getItem("user"))

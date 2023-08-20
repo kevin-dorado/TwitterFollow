@@ -1,7 +1,6 @@
 
 import { Search } from 'lucide-react';
-import { TwitterFolowCard } from './TwitterFollowcard';
-import { App } from './App.jsx';
+
 
 
 let arrayUser=[]
