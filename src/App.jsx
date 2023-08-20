@@ -1,8 +1,8 @@
 
 
 import React from "react"
-import { TwitterFolowCard } from "./TwitterFollowcard"
-import { SearchFollow } from "./searchFollow"
+import { TwitterFolowCard } from "./TwitterFollowCard"
+import { SearchFollow } from "./SearchFollow"
 
 
 const Showuser=()=>{
